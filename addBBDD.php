@@ -70,7 +70,7 @@ mysqli_query($conexion, $sql);
 
 
 if ($latitud != '0.00' && $longitud != '0.00') {
-    $gps = "UPDATE estacion SET Latitud = '$latitud N' , Longitud='$longitud E' WHERE ID = 1";
+    $gps = "UPDATE estacion SET Latitud = '$latitud' , Longitud='$longitud' WHERE ID = 1";
     mysqli_query($conexion, $gps);
 
 }
