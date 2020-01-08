@@ -1,0 +1,65 @@
+body{
+    width: auto;
+    margin: 30px 60px;
+}
+#cabecera {
+    width: auto;
+    height: 100px;
+    border: #0066cc solid 3px;
+    overflow:hidden;
+    text-align: center;
+}
+
+#cabecera h1 {
+    display: inline-table;
+    height: 100px;
+    margin-right: 10px;
+    font-family: Arial;
+    text-decoration: underline;
+    padding-top: 10px;
+    vertical-align: middle;
+
+}
+#cabecera  img{
+    height: 75px;
+    display: inline-block;
+    margin-left: 10px;
+
+}
+#sensores{
+    border-collapse: collapse;
+}
+#sensores  tr:nth-child(odd) {
+    background-color: #F2F2F2;
+}
+#sensores tr:nth-child(even) {
+    background-color:#BDBDBD;
+}
+#sensores th{
+    padding: 5px;
+    height: 30px;
+    width: 150px;
+    border: black solid 2px;
+    text-decoration: underline;
+    text-align: center;
+    background-color: white;
+}
+#sensores td {
+    padding: 5px;
+    height: 30px;
+    width: 150px;
+    border: black solid 2px;
+    text-align: center;
+}
+#sensores a{
+    color: black;
+}
+
+.grafico{
+    height: 700px;
+    width: 900px;
+}
+
+a{
+    color: black;
+}
